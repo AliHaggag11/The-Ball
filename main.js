@@ -7,7 +7,7 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
 const scene = new THREE.Scene()
 
 //Create sphere 
-const geometry = new THREE.SphereGeometry(3, 64, 64)
+const geometry = new THREE.TorusGeometry(3, 64, 64)
 const material = new THREE.MeshStandardMaterial({
   color: "#00ff83",
   roughness: 0.5
